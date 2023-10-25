@@ -1,0 +1,82 @@
+
+
+.clfl{
+    height: 100px;
+    width: 100px;
+}
+img{
+    height:80px;
+    width: 170px;
+}
+body{
+    background-image: url(../img/BR-pt-20230206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    opacity: 100%;
+}
+.div.btn-login{
+    align-items: flex-end;
+}
+.ent{
+    align-items: flex-end;
+}
+.sep{
+    border-top: 10px solid #8c8b8b;
+    border-bottom: 0px;
+   
+   
+}
+img.seuma{
+
+height: 20rem;
+width: 20rem;}
+.seus{
+align-items: center;
+}
+  
+.bottom{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+  
+    padding: 4px;
+    width: 82px;
+    height: 36px;
+}
+article{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    
+    
+   
+    
+}
+article .bg{
+opacity: 0.1;
+}
+
+
+.top{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.781) ,black);
+   border-bottom:  80px;
+   
+}
+.navbal{
+    display: flex;
+    
+    justify-items: center;
+    text-align: center;
+}
+article{
+    padding-bottom: 300px;
+}
+.body.img{
+    opacity: 0.1;
+}
+.htv{
+    font-size: 60px;
+}
+img.tables{
+
+    height: 20rem;
+    width: 20rem;}
