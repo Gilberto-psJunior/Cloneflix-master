@@ -7,11 +7,7 @@ window.document.addEventListener('DOMContentLoaded', () => {
 
   const growCast1 = document.getElementById('growcast1');
 
-  growCast1.addEventListener('click', () => {
-      modalBody.innerHTML = `
-      <iframe name=Player "" src="https://sinalpublico.com/player3/server1httphlb.php?vid=BOBESPJT01EP12" frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen> </iframe>
-      `
-  })
+  
 
   movies.forEach((movie) => {
       if (movie.category == 'bobEsponja') {
@@ -49,7 +45,7 @@ window.document.addEventListener('DOMContentLoaded', () => {
           const movieLink = movie.id
 
           modalBody.innerHTML = `
-          <iframe src="${movieLink}" frameborder="0" class="iframe"></iframe>
+          <iframe src="${movieLink}"  frameborder=0 height=400 scrolling=no width=640 allow="encrypted-media" allowFullScreen frameborder="0" class="iframe"></iframe>
           `
       });
   };
